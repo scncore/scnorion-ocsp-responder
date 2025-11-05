@@ -4,13 +4,13 @@ import (
 	"log"
 	"os"
 
-	"github.com/open-uem/openuem-ocsp-responder/internal/commands"
+	"github.com/scncore/scncore-ocsp-responder/internal/commands"
 	"github.com/urfave/cli/v2"
 )
 
 func main() {
 	app := &cli.App{
-		Name:      "openuem-ocsp-responder",
+		Name:      "scncore-ocsp-responder",
 		Commands:  getCommands(),
 		Usage:     "Manage the Online Certification Signing Protocol (OCSP) responder, required to check if a certificate is valid",
 		Authors:   []*cli.Author{{Name: "Miguel Angel Alvarez Cabrerizo", Email: "mcabrerizo@sologitops.com"}},

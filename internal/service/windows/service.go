@@ -6,14 +6,14 @@ import (
 	"log"
 
 	"github.com/go-co-op/gocron/v2"
-	"github.com/open-uem/openuem-ocsp-responder/internal/common"
-	"github.com/open-uem/utils"
+	"github.com/scncore/scncore-ocsp-responder/internal/common"
+	"github.com/scncore/utils"
 	"golang.org/x/sys/windows/svc"
 )
 
 func main() {
 	var err error
-	w := common.NewWorker("openuem-ocsp-responder.txt")
+	w := common.NewWorker("scncore-ocsp-responder.txt")
 
 	// Start Task Scheduler
 	w.TaskScheduler, err = gocron.NewScheduler()
@@ -31,13 +31,13 @@ func main() {
 		}
 	}
 
-	s := utils.NewOpenUEMWindowsService()
+	s := utils.NewscncoreWindowsService()
 	s.ServiceStart = w.StartWorker
 	s.ServiceStop = w.StopWorker
 
 	// Run service
 
-	if err := svc.Run("openuem-ocsp-responder", s); err != nil {
+	if err := svc.Run("scncore-ocsp-responder", s); err != nil {
 		log.Printf("[ERROR]: could not run service: %v", err)
 	}
 }

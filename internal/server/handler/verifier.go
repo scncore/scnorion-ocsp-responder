@@ -16,7 +16,7 @@ import (
 	"time"
 
 	"github.com/labstack/echo/v4"
-	"github.com/open-uem/ent"
+	"github.com/scncore/ent"
 	"golang.org/x/crypto/ocsp"
 )
 

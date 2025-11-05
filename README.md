@@ -1,6 +1,6 @@
-# OpenUEM - OCSP Responder
+# scncore - OCSP Responder
 
-Repository containing the OCSP Responder server used to check the validity of the certificates used in OpenUEM
+Repository containing the OCSP Responder server used to check the validity of the certificates used in scncore
 
 References:
 

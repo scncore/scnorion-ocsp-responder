@@ -7,8 +7,8 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"github.com/open-uem/openuem-ocsp-responder/internal/models"
-	"github.com/open-uem/openuem-ocsp-responder/internal/server/handler"
+	"github.com/scncore/scncore-ocsp-responder/internal/models"
+	"github.com/scncore/scncore-ocsp-responder/internal/server/handler"
 )
 
 type WebServer struct {

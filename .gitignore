@@ -7,4 +7,4 @@ certificates
 logs
 PIDFILE
 .vscode
-openuem-ocsp-responder
+scncore-ocsp-responder

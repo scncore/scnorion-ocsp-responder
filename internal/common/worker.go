@@ -6,15 +6,15 @@ import (
 	"log"
 
 	"github.com/go-co-op/gocron/v2"
-	"github.com/open-uem/openuem-ocsp-responder/internal/models"
-	"github.com/open-uem/openuem-ocsp-responder/internal/server"
-	"github.com/open-uem/utils"
+	"github.com/scncore/scncore-ocsp-responder/internal/models"
+	"github.com/scncore/scncore-ocsp-responder/internal/server"
+	"github.com/scncore/utils"
 )
 
 type Worker struct {
 	Model          *models.Model
 	WebServer      *server.WebServer
-	Logger         *utils.OpenUEMLogger
+	Logger         *utils.scncoreLogger
 	DBConnectJob   gocron.Job
 	ConfigJob      gocron.Job
 	TaskScheduler  gocron.Scheduler

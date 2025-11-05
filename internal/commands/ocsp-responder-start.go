@@ -8,7 +8,7 @@ import (
 	"syscall"
 
 	"github.com/go-co-op/gocron/v2"
-	"github.com/open-uem/openuem-ocsp-responder/internal/common"
+	"github.com/scncore/scncore-ocsp-responder/internal/common"
 	"github.com/urfave/cli/v2"
 )
 
@@ -43,7 +43,7 @@ func OCSPResponderFlags() []cli.Flag {
 		},
 		&cli.StringFlag{
 			Name:     "dburl",
-			Usage:    "the Postgres database connection url e.g (postgres://user:password@host:5432/openuem)",
+			Usage:    "the Postgres database connection url e.g (postgres://user:password@host:5432/scncore)",
 			EnvVars:  []string{"DATABASE_URL"},
 			Required: true,
 		},

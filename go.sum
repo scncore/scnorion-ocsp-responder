@@ -51,10 +51,10 @@ github.com/mattn/go-sqlite3 v1.14.16 h1:yOQRA0RpS5PFz/oikGwBEqvAWhWg5ufRz4ETLjwp
 github.com/mattn/go-sqlite3 v1.14.16/go.mod h1:2eHXhiwb8IkHr+BDWZGa96P6+rkvnG63S2DGjv9HUNg=
 github.com/mitchellh/go-wordwrap v1.0.1 h1:TLuKupo69TCn6TQSyGxwI1EblZZEsQ0vMlAFQflz0v0=
 github.com/mitchellh/go-wordwrap v1.0.1/go.mod h1:R62XHJLzvMFRBbcrT7m7WgmE1eOyTSsCt+hzestvNj0=
-github.com/open-uem/ent v0.0.0-20250709115553-5f5c33d1ce0e h1:o+1fDjD/2QEIfHiZOaxmdXtntIiPixLkG+XodsTY74Y=
-github.com/open-uem/ent v0.0.0-20250709115553-5f5c33d1ce0e/go.mod h1:TkCPQ+cFFwCdDflqc2/XKTZIN/ZJGJenbvUSIZOEzsk=
-github.com/open-uem/utils v0.0.0-20250702121339-316c5b599cd3 h1:rSazfmqI9ZVLybnpexdvPowHXFjAce93AQ3G7fhG5uA=
-github.com/open-uem/utils v0.0.0-20250702121339-316c5b599cd3/go.mod h1:nPL4xlsiCPyUiF8ntnyrlyz+pVjizIC+N5+TOvj3TLc=
+github.com/scncore/ent v0.0.0-20250709115553-5f5c33d1ce0e h1:o+1fDjD/2QEIfHiZOaxmdXtntIiPixLkG+XodsTY74Y=
+github.com/scncore/ent v0.0.0-20250709115553-5f5c33d1ce0e/go.mod h1:TkCPQ+cFFwCdDflqc2/XKTZIN/ZJGJenbvUSIZOEzsk=
+github.com/scncore/utils v0.0.0-20250702121339-316c5b599cd3 h1:rSazfmqI9ZVLybnpexdvPowHXFjAce93AQ3G7fhG5uA=
+github.com/scncore/utils v0.0.0-20250702121339-316c5b599cd3/go.mod h1:nPL4xlsiCPyUiF8ntnyrlyz+pVjizIC+N5+TOvj3TLc=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/robfig/cron/v3 v3.0.1 h1:WdRxkvbJztn8LMz/QEvLN5sBU+xKpSqwwUO1Pjr4qDs=

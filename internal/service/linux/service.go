@@ -9,13 +9,13 @@ import (
 	"syscall"
 
 	"github.com/go-co-op/gocron/v2"
-	"github.com/open-uem/openuem-ocsp-responder/internal/common"
+	"github.com/scncore/scncore-ocsp-responder/internal/common"
 )
 
 func main() {
 	var err error
 
-	w := common.NewWorker("openuem-ocsp-responder")
+	w := common.NewWorker("scncore-ocsp-responder")
 
 	// Start Task Scheduler
 	w.TaskScheduler, err = gocron.NewScheduler()
